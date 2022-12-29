@@ -19,7 +19,7 @@
     z-index: 5;
 }
 .rounded-t-4xl{
-    border-radius: 2rem;
+    border-radius: 2rem 2rem 0 0;
 }
  .min-h-56{
     min-height: 14rem;
@@ -38,6 +38,9 @@
         width:30rem;
     }
 .arc{
+    margin: auto;
+    height: 20rem;
+    width: 31.25rem;
     border-radius: 50% 50% 0 0;
 }
     .clearfix{
@@ -145,8 +148,12 @@ label{
   body{
     position: fixed;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
+  }
+  #root{
+    width: 100%;
+    height:100vh 
   }
   .footer{
     @apply  bg-black z-5 text-white fixed -bottom-0 w-full h-14 flex items-center justify-center mt-20 right-0;
