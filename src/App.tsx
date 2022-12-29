@@ -36,7 +36,7 @@ const [isToggle, setisToggle] = useState(false)
           <p className='text-grey'>user@gmail.com</p>
         </div>
       </div>
-      <div className='bg-rose-100 border-border-color border  w-full min-h-20 p-3 rounded-3xl my-8'>
+      <div className='bg-secondary border-border-color border  w-full min-h-20 p-3 rounded-3xl my-8'>
         <div className='px-4 py-2'>
         <small className='-mt-4 font-bold'>Coin Balance</small>
       <div className='flex justify-between my-2'>
@@ -48,7 +48,7 @@ const [isToggle, setisToggle] = useState(false)
       <div className='font-bold'>Winning Balance</div><div className='flex flex-col'>Jackport<br/><div className='font-bold center text-xl'>$120.00<FaGreaterThan fontSize={'0.75rem'}/> </div></div>
       </div>
       </div>
-     <div className='bg-rose-100  border-border-color border w-full h-max p-8 mb-20 rounded-3xl my-8'>
+     <div className='bg-secondary  border-border-color border w-full h-max p-8 mb-20 rounded-3xl my-8'>
         <div className='grid grid-cols-2 gap-4'>
           <div className='grid-cols font-bold'>Personal Information</div>
           <div className='grid-cols justify-self-end font-bold'><a className='text-primary' href="">Edit</a></div>
