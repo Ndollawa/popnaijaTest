@@ -425,9 +425,9 @@ video {
 
 .arc{
   margin: auto;
-  height: 20rem;
+  height: 10rem;
   width: 31.25rem;
-  border-radius: 50% 50% 0 0;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
 }
 
 [multiple], [type=date], [type=datetime-local], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], select, textarea {
@@ -567,8 +567,8 @@ button, input, optgroup, select, textarea {
   bottom: 0.25rem;
 }
 
-.-bottom-60 {
-  bottom: -15rem;
+.-bottom-28 {
+  bottom: -7rem;
 }
 
 .right-0 {
@@ -581,6 +581,18 @@ button, input, optgroup, select, textarea {
 
 .top-6 {
   top: 1.5rem;
+}
+
+.-bottom-24 {
+  bottom: -6rem;
+}
+
+.-bottom-20 {
+  bottom: -5rem;
+}
+
+.-left-0 {
+  left: -0px;
 }
 
 .m-auto {
@@ -638,6 +650,10 @@ button, input, optgroup, select, textarea {
   height: max-content;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -652,6 +668,10 @@ button, input, optgroup, select, textarea {
 
 .w-6\/12 {
   width: 50%;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .grid-cols-2 {
@@ -710,10 +730,6 @@ button, input, optgroup, select, textarea {
   border-width: 1px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border-border-color {
   --tw-border-opacity: 1;
   border-color: rgb(112 112 112 / var(--tw-border-opacity));
@@ -729,9 +745,9 @@ button, input, optgroup, select, textarea {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-stone-500 {
+.bg-grey {
   --tw-bg-opacity: 1;
-  background-color: rgb(120 113 108 / var(--tw-bg-opacity));
+  background-color: rgb(117 117 117 / var(--tw-bg-opacity));
 }
 
 .bg-rose-100 {
@@ -742,16 +758,6 @@ button, input, optgroup, select, textarea {
 .bg-yellow-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
-}
-
-.bg-grey {
-  --tw-bg-opacity: 1;
-  background-color: rgb(117 117 117 / var(--tw-bg-opacity));
-}
-
-.bg-secondary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(235 234 245 / var(--tw-bg-opacity));
 }
 
 .p-4 {
@@ -813,9 +819,9 @@ button, input, optgroup, select, textarea {
   font-weight: 700;
 }
 
-.text-gray-900 {
+.text-deepgrey {
   --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity));
+  color: rgb(33 33 33 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -823,24 +829,14 @@ button, input, optgroup, select, textarea {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
-}
-
-.text-primary {
-  --tw-text-opacity: 1;
-  color: rgb(84 59 201 / var(--tw-text-opacity));
-}
-
 .text-grey {
   --tw-text-opacity: 1;
   color: rgb(117 117 117 / var(--tw-text-opacity));
 }
 
-.text-deepgrey {
+.text-primary {
   --tw-text-opacity: 1;
-  color: rgb(33 33 33 / var(--tw-text-opacity));
+  color: rgb(84 59 201 / var(--tw-text-opacity));
 }
 
 label {

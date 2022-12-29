@@ -27,7 +27,7 @@ const [isToggle, setisToggle] = useState(false)
       </div>
     <div className="bg-white  rounded-t-4xl px-4 py-6">
       <div className='flex items-center p-4'>
-        <div className="rounded-full text-grey-800 w-20 h-20 mr-10 bg-grey relative">
+        <div className="rounded-full text-grey-800 w-24 h-24 mr-10 bg-grey relative">
         <img  src="" alt="" />
         <span className="bg-primary rounded-full p-2 absolute -right-0 bottom-1 text-white"><BsFillCameraFill/></span>
         </div>
@@ -67,7 +67,7 @@ const [isToggle, setisToggle] = useState(false)
     </div>
       </div>
   </div> 
-  <div className='absolute -bottom-60 justify-center right-0 -left-10 m-auto flex  bg-primary arc'>
+  <div className='absolute -bottom-20 justify-center right-0 -left-0 m-auto flex  bg-primary arc'>
       <div className='flex absolute top-6 z-1 w-6/12 justify-around items-center text-white'>
     <Link to="/wallet"><BsCoin fontSize={"1.5rem"}/></Link>
     <Link to="/home"><FaHome fontSize={"1.5rem"}/></Link>
